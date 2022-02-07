@@ -1,0 +1,331 @@
+@charset "UTF-8";
+/* import de fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Comfortaa:wght@500&family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Noto+Sans:ital@1&family=Patrick+Hand&family=Permanent+Marker&family=Roboto:wght@100&family=Special+Elite&display=swap");
+header .navbar {
+  background-color: #950101 !important;
+}
+
+header .nav-link {
+  color: blanchedalmond !important;
+  font-family: 'Alata', sans-serif;
+  font-size: 22px;
+}
+
+header .navbar-brand {
+  color: white !important;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+
+header .btn {
+  font-family: 'Alata', sans-serif;
+}
+
+header .form-control {
+  font-family: 'Alata', sans-serif;
+}
+
+/* Fin Estilos Navbar */
+.bodyIndex {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.bodySeccion1 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.bodySeccion2 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.bodySeccion3 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.bodySeccion4 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #03131f;
+  color: beige;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .titulofooter {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer .filasfooter {
+  font-family: 'Alata', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: thistle;
+}
+
+footer .imagenesFooter {
+  background-size: 10px;
+  width: 18px;
+}
+
+.sectionBienvenida .corazones {
+  height: 500px;
+}
+
+.sectionBienvenida .mango {
+  height: 500px;
+}
+
+.sectionBienvenida .ramasLeche {
+  height: 500px;
+}
+
+.sectionBienvenida .parrafo1 {
+  color: white;
+  font-family: 'Alata', sans-serif;
+  font-size: 48px;
+  margin: 70px;
+  text-align: center;
+}
+
+.sectionParrafo2 .parrafo2 {
+  color: white;
+  font-family: 'Alata', sans-serif;
+  font-size: 38px;
+  margin: 70px;
+  text-align: center;
+}
+
+aside .parrafo3 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  margin: 70px;
+  text-align: center;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  /* Titulos "Bombones", "Ramas", "Tabletas" */
+  /* estilos palabra "Bombones" */
+  /* estilos palabra "Tabletas */
+  /* estilos "choco semiamargo, leche y blanco */
+  /* estilos listas */
+}
+
+section .tituloListas {
+  color: deeppink;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  text-decoration: underline;
+  font-size: 40px;
+  padding: 33px;
+  margin: 5px;
+}
+
+section .tituloListas:hover {
+  color: #950101;
+}
+
+section .bombones {
+  margin-top: 200px;
+}
+
+section .tabletas {
+  text-align: left;
+  margin-left: 75px;
+}
+
+section .tiposDeChoco {
+  font-size: 35px;
+  font-family: 'Patrick Hand', cursive;
+  padding: 30px;
+  margin-left: 100px;
+  text-align: justify;
+  color: blanchedalmond;
+}
+
+section .list-group {
+  font-family: 'Alata', sans-serif;
+  padding: 5px;
+  margin-left: 50px;
+  list-style: square;
+  font-size: 22px;
+  color: black;
+  background-color: #950101;
+}
+
+section .list-group:hover {
+  background-color: lightcoral;
+}
+
+.sectionRamas {
+  /* estilos del texto debajo de "Ramas" */
+}
+
+.sectionRamas .textoRamas {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 25px;
+  padding: 80px;
+  color: blanchedalmond;
+}
+
+.sectionTabletas {
+  /* estilos lista de tabletas */
+}
+
+.sectionTabletas .listaTabletas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section {
+  /* estilos titulo "Precios Generales" */
+  /* estilos subtitulo entre paréntesis */
+}
+
+section h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  color: deeppink;
+  padding-top: 33px;
+  padding-bottom: 8px;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+section h4 {
+  font-size: 22px;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  padding-bottom: 40px;
+  color: seashell;
+}
+
+section {
+  /* estilos tablas de precios */
+}
+
+section table {
+  border-color: rosybrown;
+  margin: 25px;
+  margin-left: 200px;
+  font-size: 33px;
+  font-family: 'Alata', sans-serif;
+  color: blanchedalmond;
+  /* celda de encabezado de tabla */
+  /* celda de datos */
+}
+
+section table th {
+  padding: 10px;
+  background-color: #d69d9d;
+}
+
+section table td {
+  padding: 8px;
+  list-style: square;
+}
+
+section {
+  /* titulo "¿Cómo comezó todo?" */
+  /* estilos imagen de perfil */
+}
+
+section .h1Titulo {
+  padding: 40px;
+  font-size: 40px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  color: deeppink;
+}
+
+section .imgPerfil {
+  width: 580px;
+  border-radius: 30px;
+}
+
+section {
+  /* estilos firma */
+}
+
+section .parrafos {
+  font-size: 30px;
+  font-family: 'Alata', sans-serif;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  color: blanchedalmond;
+}
+
+section .firma {
+  font-size: 25px;
+  font-family: 'Alata', sans-serif;
+  padding: 20px;
+  margin-right: 100px;
+  text-align: right;
+  color: white;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+.divTitulo {
+  /* titulo "¡Tu opinión nos importa!" */
+  /* estilos de subtítulo */
+}
+
+.divTitulo h2 {
+  font-size: 40px;
+  font-family: 'Comfortaa', cursive;
+  color: hotpink;
+  padding-top: 40px;
+}
+
+.divTitulo .infoQuejas {
+  color: blanchedalmond;
+  font-family: 'Alata', sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* estilos texto "Email" y "Escribe aqui el motivo de tu consulta" */
+.container form .form-group {
+  color: blanchedalmond;
+  font-family: 'Alata', sans-serif;
+  font-size: 20px;
+}
+/*# sourceMappingURL=estilos.css.map */

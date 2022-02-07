@@ -1,0 +1,374 @@
+@import:_mediaQueries.scss;
+
+/* import de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Comfortaa:wght@500&family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Noto+Sans:ital@1&family=Patrick+Hand&family=Permanent+Marker&family=Roboto:wght@100&family=Special+Elite&display=swap');
+
+
+// variables
+$rojoPrincipal: rgb(149,1,1);
+$negro: black;
+$amarilloTexto: blanchedalmond;
+$blanco: white;
+$rosaTitulos: deeppink;
+
+// estilos de navbar
+header{
+    .navbar{
+        background-color: $rojoPrincipal !important;
+    }
+
+    .nav-link{
+        color: $amarilloTexto !important;
+        font-family: 'Alata', sans-serif;
+        font-size: 22px;
+    }
+    
+    .navbar-brand{
+        color: $blanco !important;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+    }
+    
+    .btn{
+        font-family: 'Alata', sans-serif;
+    }
+    
+    .form-control{
+        font-family: 'Alata', sans-serif;
+    }
+    
+}
+
+/* Fin Estilos Navbar */
+
+// ESTILOS DE BODY
+.bodyIndex{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bodySeccion1{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+
+.bodySeccion2{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+
+.bodySeccion3{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+
+.bodySeccion4{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+
+// ESTILOS FOOTER
+footer{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(3, 19, 31);
+    color: beige;
+    display: flex;
+    justify-content:space-around;
+
+    .titulofooter{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .filasfooter{
+        font-family: 'Alata', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: thistle;
+    }
+    
+    .imagenesFooter{
+        background-size: 10px;
+        width: 18px;
+    }
+}
+
+// FIN DE ESTILOS FOOTER
+
+// ESTILOS INDEX
+
+.sectionBienvenida{
+
+    // estilos imagenes del Carousel
+    .corazones{
+        height: 600px;
+    }
+    .mango{
+        height: 600px;
+    }
+    .ramasLeche{
+        height: 600px;
+    }
+
+    // primer párrafo
+    .parrafo1{
+        color: $blanco;
+        font-family: 'Alata', sans-serif;
+        font-size: 48px;
+        margin: 80px;
+        text-align: center;
+    }
+}
+
+.sectionParrafo2{
+        .parrafo2{
+        color: $blanco;
+        font-family: 'Alata', sans-serif;
+        font-size: 35px;
+        margin: 50px;
+        text-align: center;
+    }
+}
+
+.asideIndex{
+    .parrafo3{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    margin: 70px;
+    text-align: center;
+    }
+}
+
+// ESTILOS SECCION 1
+
+.titulos{
+
+    /* Titulos "Bombones", "Ramas", "Tabletas" */
+    .tituloListas {
+    color: $rosaTitulos;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    text-decoration:underline;
+    font-size: 40px;
+    padding: 33px;
+    margin: 5px;
+    }
+    .tituloListas:hover{
+    color: $rojoPrincipal;
+    }
+
+    /* estilos palabra "Bombones" */
+
+    .bombones{
+    margin-top:200px;
+    }
+
+    /* estilos palabra "Tabletas */
+    .tabletas{
+    text-align: left;
+    margin-left: 75px;
+    }
+
+    /* estilos "choco semiamargo, leche y blanco */
+    .tiposDeChoco{
+    font-size: 35px;
+    font-family: 'Patrick Hand', cursive;
+    padding:30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    text-align: justify;
+    color: $amarilloTexto;
+    }
+
+    /* estilos listas */
+    .list-group{
+    font-family: 'Alata', sans-serif;
+    padding: 5px;
+    margin-left: 50px;
+    list-style:square;
+    font-size: 22px;
+    color: $negro;
+    background-color: $rojoPrincipal;
+    }
+
+    .list-group:hover{
+    background-color: lightcoral;
+    }
+}
+
+.sectionRamas{
+    /* estilos del texto debajo de "Ramas" */
+    .textoRamas{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 25px;
+    padding: 80px;
+    color: $amarilloTexto;
+    }
+}
+
+#imgRama{
+    align-items: center;
+    
+
+.sectionTabletas{
+    /* estilos lista de tabletas */
+    .listaTabletas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+}
+// ESTILOS SECCION 2
+
+// estilos de titulo y subtitulo
+.tituloPrecios{
+    /* estilos titulo "Precios Generales" */
+    h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: deeppink;
+    padding-top: 33px;
+    padding-bottom: 8px;
+    margin: 5px;
+    text-decoration: underline;
+    align-items: center;
+    }
+
+    /* estilos subtitulo entre paréntesis */
+    h4{
+    font-size: 22px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    color: seashell;
+    }
+}
+
+// estilos de tablas
+.sectionTablas{
+    /* estilos tablas de precios */
+    table{
+    border-color: rosybrown;
+    margin: 25px;
+    margin-left: 200px;
+    font-size: 33px;
+    font-family: 'Alata', sans-serif;
+    color:blanchedalmond;
+
+        /* celda de encabezado de tabla */
+        th{
+        padding: 10px;
+        background-color: rgb(214, 157, 157);
+        }
+
+        /* celda de datos */
+        td{
+        padding: 8px;
+        list-style:square ;
+        }
+    }
+}
+
+// ESTILOS SECCION 3
+
+.tituloPresentacion{
+    /* titulo "¿Cómo comezó todo?" */
+    .h1Titulo{
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: deeppink;
+    }
+
+    /* estilos imagen de perfil */
+    .imgPerfil{
+    width: 580px;
+    border-radius: 30px;
+    }
+
+}
+
+// estilos de parrafos de presentación y firma
+.pPresentacion{
+    display: flex;
+    flex-direction: column;
+    .parrafos{
+        font-size: 30px;
+        font-family: 'Alata', sans-serif;
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+        color:blanchedalmond;
+        flex-direction: column;
+    }
+    
+    /* estilos firma */
+    .firma{
+        font-size: 25px;
+        font-family: 'Alata', sans-serif;
+        padding: 20px;
+        margin-right: 100px;
+        text-align: right;
+        color: white;
+        transform: rotate(-2deg);
+    }
+}
+
+// ESTILOS SECCION 4
+
+// titulo "¡Tu opinión nos importa!
+.divTitulo{
+    /* titulo "¡Tu opinión nos importa!" */
+    h2{
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    color: hotpink;
+    padding-top: 40px;
+    }
+
+    /* estilos de subtítulo */
+    .infoQuejas{
+    color: blanchedalmond;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    }
+}
+
+/* estilos texto "Email" y "Escribe aqui el motivo de tu consulta" */
+.container{
+    form{
+        .botonEnviar{
+            background-color: $rojoPrincipal !important;
+        }
+        .form-group{
+            color: blanchedalmond;
+            font-family: 'Alata', sans-serif;
+            font-size: 20px;
+        }
+    }
+}
+
+// mapa de parrafos
+$parrafos:(
+    parrafo1: 30px,
+    parrafo2: 31px,
+    parrafo3: 32px,
+)
+
+
